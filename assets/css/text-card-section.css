@@ -1,0 +1,74 @@
+/* text-card-section css start */
+.text-card-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.text-card-item {
+    background: var(--item-bg4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-card-item-content {
+    padding: 84px 20px;
+    text-align: center;
+}
+
+.text-card-item-subtitle {
+    color: var(--item-bg);
+    margin: 0 0 20px 0;
+}
+
+.text-card-item-title {
+    color: var(--item-bg);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+
+.text-card-item-text {
+    max-width: 558px;
+    color: var(--item-bg);
+    margin: 5px auto 0;
+}
+
+.text-card-item-content .btn {
+    margin: 20px 0 0 0;
+}
+
+/* text-card-section css end */
+
+@media only screen and (max-width: 767px) {
+    .text-card-items {
+        grid-template-columns: 1fr;
+    }
+
+    .text-card-item-title {
+        font-size: 40px;
+        line-height: 42px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .text-card-item-content {
+        padding: 40px 20px;
+    }
+
+    .text-card-item-subtitle {
+        margin: 0 0 16px 0;
+    }
+
+    .text-card-item-title {
+        font-size: 28px;
+        line-height: 28px;
+        letter-spacing: 2px;
+    }
+
+    .text-card-item-content .btn {
+        margin: 16px 0 0 0;
+    }
+}

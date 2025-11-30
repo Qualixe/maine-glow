@@ -1,0 +1,30 @@
+/* product-listing-section css start */
+.product-listing-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    max-width: 1312px;
+    margin: 0 auto;
+}
+
+/* product-listing-section css end */
+
+@media only screen and (max-width: 992px) {
+
+    /* product-listing-section css start */
+    .product-listing-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* product-listing-section css end */
+}
+
+@media only screen and (max-width: 575px) {
+
+    /* product-listing-section css start */
+    .product-listing-items {
+        row-gap: 24px;
+    }
+
+    /* product-listing-section css end */
+}

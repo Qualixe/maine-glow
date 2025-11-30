@@ -1,0 +1,123 @@
+/* img-text-card-section css start */
+.img-text-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.img-text-card-img {
+    overflow: hidden;
+    border-radius: 24px 0 0 24px;
+    margin: 0 -25px 0 0;
+}
+
+.img-text-card {
+    background: var(--item-bg3);
+    overflow: hidden;
+    border-radius: 24px;
+    padding: 45px 61px;
+    text-align: center;
+}
+
+.img-text-card-title {
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 82px;
+    text-transform: uppercase;
+}
+
+.img-text-card-subtitle {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.img-text-card-subtitle em {
+    font-family: var(--heading-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 82px;
+    text-transform: uppercase;
+}
+
+.img-text-card-inner-img {
+    max-width: 275px;
+    margin: 10px auto 24px;
+}
+
+.img-text-card-text {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.img-text-card-bottom-content .btn {
+    margin: 24px 0 0 0;
+}
+
+/* img-text-card-section css end */
+
+@media only screen and (max-width: 992px) {
+    .img-text-card-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .img-text-card-img {
+        border-radius: 24px 24px 0 0;
+        margin: 0 0 -25px 0;
+    }
+
+    .img-text-card {
+        padding: 30px 20px;
+    }
+
+    .img-text-card-title,
+    .img-text-card-subtitle em {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .img-text-card-inner-img {
+        max-width: 200px;
+        margin: 10px auto 16px;
+    }
+
+    .img-text-card-text {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .img-text-card-title,
+    .img-text-card-subtitle em {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .img-text-card-inner-img {
+        max-width: 175px;
+        margin: 10px auto 14px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .img-text-card-img {
+        border-radius: 12px 12px 0 0;
+    }
+
+    .img-text-card {
+        border-radius: 12px;
+    }
+
+    .img-text-card-title,
+    .img-text-card-subtitle em {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .img-text-card-inner-img {
+        max-width: 150px;
+        margin: 10px auto 12px;
+    }
+}

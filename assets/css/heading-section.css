@@ -1,0 +1,51 @@
+/* heading-section css start */
+.heading-content {
+    max-width: 1165px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading-content-title {
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.heading-content-subtitle {
+    font-family: var(--stylish-font2);
+    color: var(--item-bg4);
+    font-weight: 500;
+    font-size: 62px;
+    line-height: 100%;
+}
+
+/* heading-section css end */
+
+@media only screen and (max-width:767px) {
+
+    /* heading-section css start */
+    .heading-content-title {
+        font-size: 60px;
+    }
+
+    .heading-content-subtitle {
+        font-size: 46px;
+    }
+
+    /* heading-section css end */
+}
+
+@media only screen and (max-width:767px) {
+
+    /* heading-section css start */
+    .heading-content-title {
+        font-size: 36px;
+    }
+
+    .heading-content-subtitle {
+        font-size: 30px;
+    }
+
+    /* heading-section css end */
+}
