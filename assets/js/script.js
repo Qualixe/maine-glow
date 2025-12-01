@@ -200,7 +200,7 @@ var swiper = new Swiper(".text-with-img-slider", {
   grabCursor: true,
   loop: true,
   pagination: {
-    el: ".swiper-pagination",
+    el: ".text-with-img-slider-pagination",
     type: "fraction",
   },
 });
