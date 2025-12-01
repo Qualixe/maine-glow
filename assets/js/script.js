@@ -53,6 +53,32 @@ $(document).ready(function () {
 
   // navbar js end ---
 
+  // filter sidebar js start--
+  $(".filter-open-btn").click(function (event) {
+    event.stopPropagation();
+    $(".collection-filter").addClass("active");
+    $("body").toggleClass("active");
+  });
+
+  $(".filter-window-close-btn").click(function (event) {
+    event.stopPropagation();
+    $(".collection-filter").removeClass("active");
+    $("body").toggleClass("active");
+  });
+
+  $(".filter-close-btn").click(function (event) {
+    event.stopPropagation();
+    $(".collection-filter").removeClass("active");
+    $("body").toggleClass("active");
+  });
+  // filter sidebar js end--
+
+  // **..filter-accordion js start..**
+  $(".accordion-toggle-btn").on("click", function () {
+    $(this).next().slideToggle();
+    $(this).parent().toggleClass("active");
+  });
+  // **..filter-accordion js end..**
 });
 
 // btn js ---

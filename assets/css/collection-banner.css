@@ -1,0 +1,25 @@
+/* collection-banner section css start */
+.collection-banner-content {
+    text-align: center;
+}
+
+.collection-banner-title {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+/* collection-banner section css end */
+
+@media only screen and (max-width: 768px) {
+    .collection-banner-title {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .collection-banner-title {
+        font-size: 28px;
+    }
+}
