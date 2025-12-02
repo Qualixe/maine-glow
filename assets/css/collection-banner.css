@@ -1,4 +1,8 @@
 /* collection-banner section css start */
+.collection-banner {
+    background: var(--section-bg4);
+}
+
 .collection-banner-content {
     text-align: center;
 }

@@ -5,7 +5,16 @@
     text-align: center;
 }
 
+.heading-section2 .heading-content {
+    max-width: 1270px;
+}
+
+.heading-section2 .heading-content {
+    max-width: 1270px;
+}
+
 .heading-content-title {
+    color: var(--brand-color);
     font-weight: 400;
     font-size: 86px;
     line-height: 100%;

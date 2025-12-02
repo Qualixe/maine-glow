@@ -79,6 +79,19 @@ $(document).ready(function () {
     $(this).parent().toggleClass("active");
   });
   // **..filter-accordion js end..**
+
+  // **..faq-accordion js start..**
+  $(".faq-accordion-toggle-btn").on("click", function () {
+    $(this).next().slideToggle();
+    $(this).parent().toggleClass("active");
+    $(this)
+      .parent()
+      .siblings()
+      .removeClass("active")
+      .find(".faq-accordion-item-content")
+      .slideUp();
+  });
+  // **..faq-accordion js end..**
 });
 
 // btn js ---
@@ -276,3 +289,39 @@ var swiper = new Swiper(".instagram-slider", {
   },
 });
 // instagram-slider js end--
+
+// gallery-slider js start--
+var swiper = new Swiper(".gallery-slider", {
+  slidesPerView: 5,
+  spaceBetween: 24,
+  loop: true,
+  grabCursor: true,
+  speed: 1000,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    1: {
+      spaceBetween: 5,
+      slidesPerView: 1.7,
+    },
+    576: {
+      spaceBetween: 10,
+      slidesPerView: 2.5,
+    },
+    768: {
+      spaceBetween: 10,
+      slidesPerView: 3.5,
+    },
+    993: {
+      spaceBetween: 16,
+      slidesPerView: 4,
+    },
+    1200: {
+      spaceBetween: 16,
+      slidesPerView: 5,
+    },
+  },
+});
+// gallery-slider js end--

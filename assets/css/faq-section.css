@@ -1,0 +1,119 @@
+/* faq-section css start */
+.faq-section .container {
+    max-width: 1128px;
+}
+
+.faq-section .section-sub-heading {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.faq-section .section-heading {
+    font-size: 52px;
+    line-height: 52px;
+}
+
+.faq-section .section-heading-text {
+    max-width: 515px;
+}
+
+/* faq-accordion css start */
+.faq-accordion {
+    width: 100%;
+    border-top: 1.5px solid var(--brand-color);
+}
+
+.faq-accordion-item {
+    border-bottom: 1px solid var(--border-color2);
+}
+
+.faq-accordion-item .item-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    padding: 16.5px 0;
+}
+
+.faq-accordion-item .item-title-wrapper .item-title {
+    text-transform: capitalize;
+    font-size: 22px;
+    transition: ease .3s;
+    font-weight: 400;
+    user-select: none;
+    line-height: 28px;
+}
+
+.faq-accordion-item.active .item-title-wrapper .item-title {
+    color: var(--brand-color);
+}
+
+.faq-accordion-item .item-title-wrapper .icon {
+    display: flex;
+}
+
+.faq-accordion-item .item-title-wrapper .icon svg {
+    transition: all ease .3s;
+}
+
+.faq-accordion-item.active .item-title-wrapper .icon svg {
+    transform: rotate(45deg);
+}
+
+.faq-accordion-item-content {
+    padding: 0 15px 15px 0;
+    display: none;
+}
+
+.faq-accordion-item-content ul {
+    margin-left: 18px;
+}
+
+.faq-accordion-item-content ul li {
+    list-style-type: disc;
+    margin: 0 0 10px 0;
+}
+
+.faq-accordion-item-content ul li:last-child {
+    margin: 0;
+}
+
+.faq-accordion-item-content ul li p,
+.faq-accordion-item-content .content p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.product-accordion-item-content .content {
+    margin: 10px 0 0 0;
+}
+
+/* faq-accordion css end */
+
+/* faq-section css end */
+
+@media only screen and (max-width:575px) {
+
+    /* faq-section css start */
+    .faq-section .section-heading {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .faq-accordion-item .item-title-wrapper {
+        padding: 12px 0;
+    }
+
+    .faq-accordion-item .item-title-wrapper .item-title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .faq-accordion-item .item-title-wrapper .icon svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* faq-section css end */
+}

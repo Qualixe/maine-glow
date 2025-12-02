@@ -1,7 +1,6 @@
 /* product-card css start */
 .product-card {
     height: 100%;
-    background-color: var(--white);
     position: relative;
 }
 
@@ -124,6 +123,7 @@
     font-weight: 400;
     border-radius: 0;
     padding: 13px 10px;
+    background: var(--body-color);
 }
 
 /* product-card css end */

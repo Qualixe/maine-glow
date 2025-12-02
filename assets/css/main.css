@@ -85,16 +85,21 @@
     --item-bg7: #E4DFCF;
     --section-bg: #5D5844;
     --section-bg2: #393526;
-    --card-bg: #ededed;
+    --section-bg3: #eae6db;
+    --section-bg4: #F0EFEB;
+    --body-color: #eae6db;
+    --card-bg: #F8F6F1;
     --border-color: #CFCABE;
     --border-color2: #C0BDB4;
     --border-color3: #C7C7C7;
     --border-color4: rgba(0, 0, 0, 0.18);
     --border-color5: #E0DDD5;
     --border-color6: rgba(93, 88, 68, 0.4);
+    --border-color7: #959289;
     --text-muted: #EAE6DBCC;
     --text-muted2: #D9D9D9;
     --text-muted3: rgba(43, 43, 43, 0.7);
+    --text-muted4: rgba(52, 52, 52, 0.8);
     --text-mark: #A87248;
     --btn-color: #fff;
     --btn-bg: #5D5844;
@@ -120,6 +125,7 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: var(--paragraph-font);
+    background: var(--body-color);
     transition: all ease 2s;
     margin: 72px 0 0 0;
     -webkit-transition: all ease 2s;
@@ -316,7 +322,6 @@ button {
     text-align: center;
     max-width: 600px;
     margin: 0 auto 42px;
-    padding: 0 20px;
 }
 
 .section-sub-heading {
@@ -337,7 +342,7 @@ button {
 }
 
 .section-heading-text {
-    color: var(--paragraph-text-color);
+    color: var(--text-muted4);
     padding: 10px 0 0 0;
     max-width: 600px;
     margin: 0 auto;
