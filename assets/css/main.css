@@ -96,6 +96,7 @@
     --border-color5: #E0DDD5;
     --border-color6: rgba(93, 88, 68, 0.4);
     --border-color7: #959289;
+    --border-color8: rgba(0, 0, 0, 0.3);
     --text-muted: #EAE6DBCC;
     --text-muted2: #D9D9D9;
     --text-muted3: rgba(43, 43, 43, 0.7);
@@ -1222,6 +1223,12 @@ a.footer-mail {
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
+    }
+
+    input,
+    textarea,
+    select {
+        font-size: 14px;
     }
 
     .section {
