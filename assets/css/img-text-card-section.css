@@ -1,4 +1,8 @@
 /* img-text-card-section css start */
+.section.img-text-card-section {
+    padding-top: 0;
+}
+
 .img-text-card-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
