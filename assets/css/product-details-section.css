@@ -297,6 +297,10 @@
         margin: 16px 0 0 0;
     }
 
+    .product-details-btn .product-quantity {
+        height: 45px;
+    }
+
     .product-details-btn .product-quantity .quantity-decrease,
     .product-details-btn .product-quantity .quantity-increase {
         padding: 0 12px;
